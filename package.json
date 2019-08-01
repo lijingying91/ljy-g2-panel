@@ -1,0 +1,53 @@
+{
+  "name": "ljy-g2-panel",
+  "version": "1.0.0",
+  "description": "G2 panel for grafana",
+  "main": "src/module.js",
+  "scripts": {
+    "build": "grunt",
+    "build:watch": "onchange './src/**/*.js' './src/**/*.css' './src/**/*.html' './src/plugin.json' -- npm run build",
+    "dev": "grunt watch",
+    "clean": "grunt clean",
+    "lint": "eslint --color .",
+    "lint:watch": "onchange 'src/**/*.js' -- npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lijingying91/ljy-g2-panel.git"
+  },
+  "keywords": [
+    "g2",
+    "grafana",
+    "plugin",
+    "panel"
+  ],
+  "author": "Joy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-transform-es2015-for-of": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "es6-shim": "^0.35.3",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "grunt": "~1.0.1",
+    "grunt-babel": "~7.0.0",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-execute": "~0.2.2",
+    "grunt-systemjs-builder": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "@antv/g2": "^3.5.8-beta.1",
+    "es6-module-loader": "^0.17.11",
+    "lodash": "^4.17.4"
+  }
+}

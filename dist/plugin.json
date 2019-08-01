@@ -1,0 +1,20 @@
+{
+  "type": "panel",
+  "name": "G2",
+  "id": "ljy-g2-panel",
+
+  "info": {
+    "description": "G2 panel for grafana",
+    "author": {
+      "name": "Joy"
+    },
+    "keywords": ["G2", "panel", "Grafana"],
+    "version": "1.0.0",
+    "updated": "2019-7-31"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.x.x",
+    "plugins": [ ]
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["G2Ctrl"],"mappings":";;;;;;;;AAASA,Y,YAAAA,M;;;2BAGAA,M","file":"module.js","sourcesContent":["import { G2Ctrl } from './g2_ctrl';\n\n// eslint-disable-next-line import/prefer-default-export\nexport { G2Ctrl as PanelCtrl };\n"]}
