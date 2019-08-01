@@ -22,3 +22,4 @@ chart.render();
 
 ## 提示Tips
 1. 支持`dataList`参数获取query的值。Response belongs to your url has been saved as **dataList**.
+2. 安装依赖包的时候使用`cnpm`. Please use  `cnpm` to install package
